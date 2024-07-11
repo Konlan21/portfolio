@@ -84,7 +84,9 @@ section {
 
 .home-img img {
     width: 30vw;
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    border-radius: 4rem;
+    /* height: 30vh; */
+    /* border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; */
 }
 
 .home-content h3{
@@ -115,12 +117,12 @@ span {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     background: transparent;
-    border: .2rem solid var(--main-color);
+    border: .24rem solid var(--main-color);
     border-radius: 50%;
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
